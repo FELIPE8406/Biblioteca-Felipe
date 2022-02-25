@@ -1,0 +1,25 @@
+
+
+USE DB_BIBLIOTECA
+go
+
+insert into TIPO_PERSONA(IdTipoPersona, Descripcion) values
+(1,'Administrador'),
+(2,'Empleado'),
+(3,'Lector')
+
+GO
+insert into PERSONA(nombre,apellido,correo,clave,IdTipoPersona) values
+('Felipe','Valbuena','felipev8406@gmail.com','8028013',1),
+('Catalina','Ruiz','katalinaruiz21@hotmail.com','123',2)
+
+
+
+go
+
+
+INSERT INTO ESTADO_PRESTAMO(IdEstadoPrestamo,Descripcion) VALUES
+(1,'Pendiente'),
+(2,'Devuelto')
+
+
